@@ -407,7 +407,7 @@ def generate_data(rows):
         data.at[i, 'Instance'] = D[1:]
         data.at[i, 'Solution'] = sol
         
-        data.to_csv('dataset.csv');
+        #data.to_csv('dataset.csv');
     
     return data
 
