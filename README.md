@@ -103,3 +103,12 @@ We want to see in all the wrong predictions made by model, how many incorrect no
 * Around 2800 predictions has only 1 incorrectly selected node
 
 
+## Optimization in generating Datasets:
+Previously it was taking way too longer to generate the dataset for some specific arrangement of tags.
+For example, for generating 20k rows it was taking whole day. Now the code has been changed. There were some unnecessary conditions which are removed now. Also, loop was running unnecessarily which is corrected and break statements are added.
+
+Following is the optimized code for solve_instance() function which mainly decided the running time: 
+
+<img width="871" alt="Screenshot 2023-08-16 at 11 37 24 AM" src="https://github.com/tantuwaySourabh/rf-tag2tag-communication/assets/26655938/92a2c992-bdc7-46fb-858e-62c66c09c4a4">
+
+
