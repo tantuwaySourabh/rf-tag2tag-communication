@@ -111,4 +111,10 @@ Following is the optimized code for solve_instance() function which mainly decid
 
 <img width="871" alt="Screenshot 2023-08-16 at 11 37 24 AM" src="https://github.com/tantuwaySourabh/rf-tag2tag-communication/assets/26655938/92a2c992-bdc7-46fb-858e-62c66c09c4a4">
 
+## Hoeffding Tree for Incremental Learning:
+As we want to achieve dynamic incremental learning for our case, we are updating our classifier to incremental classifier which preserves old information as well as keeps on learning from new incoming data from stream or batch. 
+One such classifier is HoeffdingAdaptiveDecisionTree from river library.
+
+* classifier works well with dictionary datatypes.
+* 
 
