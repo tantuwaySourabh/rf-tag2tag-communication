@@ -118,3 +118,8 @@ One such classifier is HoeffdingAdaptiveDecisionTree from river library.
 * classifier works well with dictionary datatypes.
 * 
 
+
+## Handling case when arrangement of tags changes:
+If tags are moved. In this case new data generated will be different from the previous arragement.
+So our classifier should detect the change in data and train itself according to the new data.
+So drift detection mechanism is to be used. 
